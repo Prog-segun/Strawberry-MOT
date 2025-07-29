@@ -1,0 +1,3 @@
+[submodule "Tracker/deep_sort"]
+	path = Tracker/deep_sort
+	url = https://github.com/nwojke/deep_sort.git

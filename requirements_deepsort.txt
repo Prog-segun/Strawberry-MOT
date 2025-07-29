@@ -1,0 +1,29 @@
+# ===================================================================
+# Requirements for the main tracking environment (ByteTrack, SORT, etc.)
+# Install with: pip install -r requirements.txt
+#
+# Note: For best results on Windows (to avoid MKL errors), it is
+# recommended to create the environment and install the core
+# scientific packages with Conda first, then pip install the rest.
+# ===================================================================
+
+# --- Core CV and ML Libraries ---
+numpy
+scipy
+scikit-learn
+onnxruntime       # Use onnxruntime-gpu if you have a compatible CUDA setup for your detector
+opencv-python-headless  # Headless version is better for servers
+
+# --- Tracking Algorithm Dependencies ---
+filterpy          # Required for SORT
+ultralytics       # Required by ByteTrack
+
+# --- Data Analysis and Plotting ---
+pandas
+matplotlib
+seaborn
+openpyxl          # Required by pandas to read .xlsx files
+
+# --- System Utilities (for get_specs.py) ---
+psutil
+py-cpuinfo

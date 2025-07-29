@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+/bytetrack_env/
+/deepsort_env/
+/tracker_env/
+/bytetrack_env_clone/
+/bytetrack_env_clone_no_mkl/
+/venv/
+
+# Large Data and Models (upload these separately to Google Drive/etc.)
+#*.mp4
+#*.mov
+#*.avi
+#*.onnx
+#*.pb
+#*.pt
+#*.xlsx
+#*.jpg
+#*.png
+
+# Output folders
+#/output_videos/
+
+# IDE and OS specific
+.vscode/
+.idea/
+.DS_Store
