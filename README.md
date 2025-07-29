@@ -25,7 +25,6 @@ Main script for video processing:
 
 python main.py --input <path_to_video_or_folder> --tracker <tracker_name>
 
-Pretrained weights for YOLOv3-tiny, YOLOv5, YOLOv6, and YOLOv8s are included in the Detector/ folder.
 
 Dataset Access
 The dataset used for detection, classification, and tracking is currently not publicly available.
