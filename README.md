@@ -1,5 +1,9 @@
 🍓 Strawberry-MOT: A Framework for Strawberry Detection, Ripeness Classification, and Tracking
 
+## Demo
+
+![Strawberry Tracking Demo](assets/demo.gif)
+
 This repository provides a complete pipeline for detecting strawberries in video streams, classifying their ripeness stage (unripe, semi-ripe, ripe), and tracking them using multiple state-of-the-art multi-object tracking (MOT) algorithms to support accurate yield estimation.
 🔑 Key Features
 🍓 High-Performance Detector
